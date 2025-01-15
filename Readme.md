@@ -18,7 +18,7 @@ Data for this analysis comes from multiple sources:
 This section describes the variables present in the datasets used in the study. We use two datasets [df-train-test-sf.csv](Data/) and [df-predict.csv](Data/). 
 These datasets correspond to the pre-event period (i.e. 2009-01-01 to 2018-11-07) and the entire study period including the post-event period (i.e. 2009-01-01 to 2018-12-31).
 * `df-train-test-sf.csv` is used to train the models, to perform crossvalidation, and to evaluate model performance. 
-* 'df-predict.csv' is used to predict hospitalizations under the counterfactual scenario.
+* `df-predict.csv` is used to predict hospitalizations under the counterfactual scenario.
 
 Both datasets include the following variables:
 * date: daily dates
