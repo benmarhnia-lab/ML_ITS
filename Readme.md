@@ -27,7 +27,7 @@ Both datasets include the following variables:
 * Tmax: Daily maximum temperature (°C)
 * dewT: Daily mean dew point temperature (°C)
 * precip_avg: Daily mean precipitation in millimeters 
-* pm25_diff: Daily mean non-smoke PM2.5 (\(\mu g/m^{3}\)))
+* pm25_diff: Daily mean non-smoke PM2.5 μg/m3
 
 # Data Analysis Scripts
 
