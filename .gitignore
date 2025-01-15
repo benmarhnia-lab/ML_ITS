@@ -1,0 +1,34 @@
+# vscode 
+.vscode
+
+# conda
+.conda
+
+# Mac OS
+.DS_Store
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+*.Rproj
+.Rproj.user/
+
+# R Environment Variables and profile
+.Renviron
+.Rprofile
+.Rproj.user
+
+# Outputs
+Outputs/
+
+# lint files
+.lintr
