@@ -1,6 +1,6 @@
 # -------------------------------------------------------------------------------
 # @project: Two-stage interrupted time series design
-# @author: Arnab K. Dey (arnabxdey@gmail.com), Yiqun Ma
+# @author: Arnab K. Dey, Yiqun Ma
 # @organization: Scripps Institution of Oceanography, UC San Diego
 # @description: This script selects the best models based on RMSE and creates a modeltime table for comparison
 # @date: Dec 16, 2024

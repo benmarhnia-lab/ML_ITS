@@ -1,6 +1,6 @@
 # -------------------------------------------------------------------------------
 # @project: Two-stage interrupted time series design
-# @author: Arnab K. Dey (arnabxdey@gmail.com), Yiqun Ma
+# @author: Arnab K. Dey, Yiqun Ma
 # @organization: Scripps Institution of Oceanography, UC San Diego
 # @description: This script contains functions to generate confidence intervals for time series forecasts
 # @date: Dec 20, 2024
