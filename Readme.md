@@ -58,7 +58,10 @@ This script contains functions to generate confidence intervals for time series 
 ### [3.2-model-forecast.R](R/3.2-model-forecast.R)
 This script fits the model from the selected method to the entire data (including post wildfire data) and generates forecasts for the entire dataset with bootstrapped confidence intervals.
 
-### [3.3-outputs-table-excess-hosp.R](R/3.3-outputs-table-excess-hosp.R)
-This script computes the excess hospitalizations due to the wildfire and saves as a gt table.
+### [3.3-func-calc-excess-hosp.R](R/3.3-func-calc-excess-hosp.R)
+This script contains a function to calculate excess hospitalization metrics by comparing observed values against expected values and their confidence intervals. It computes excess counts, percentages, and their uncertainty bounds, then formats them into interpretable strings for reporting.
+
+### [3.4-outputs-table-excess-hosp.R](R/3.4-outputs-table-excess-hosp.R)
+This script computes the excess hospitalizations related metrics due to the wildfire for different periods.
 
 Note: This repository is part of ongoing research at Scripps Institution of Oceanography, UC San Diego. Additional scripts and documentation will be added as the analysis progresses.
