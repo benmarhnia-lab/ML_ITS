@@ -24,13 +24,14 @@ splits_resp <- df_train_test |>
 
 ## resample data ----
 set.seed(0112358)
-resamples_kfold_resp <- training(splits_resp) |> 
-    time_series_cv(
+resamples_kfold_resp <- training(splits_resp) |>
+  time_series_cv(
     assess = "12 months",     # Length of each assessment period
-    initial = "5 years",     # Initial training period
-    slice_limit = 10,        # Number of slices to create
+    initial = "2 years",     # Initial training period
+    slice_limit = 5,         # Number of slices to create
+    skip = "12 months",       # Skip period
     cumulative = TRUE       # Use expanding window
-  )
+)
 
 # recipe for resampling ---------------------------------------------------
 rec_obj_arima <- recipe(respiratory ~ ., 

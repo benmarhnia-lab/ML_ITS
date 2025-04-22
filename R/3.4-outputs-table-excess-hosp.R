@@ -89,4 +89,4 @@ result_combined <- bind_rows(result_daily,
                               result_period_2,
                               result_period_3)
 
-print(result_combined)                              
+print(result_combined)

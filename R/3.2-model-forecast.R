@@ -23,10 +23,8 @@ options(scipen = 999)
 
 # load data ---------------------------------------------------
 df_preintervention <- read.csv(here("Data", "df-train-test-sf.csv")) |> mutate(date = as.Date(date))
-# df_preintervention <- fst::read.fst(here("Data", "1.6-df-train-test-sf.fst")) |> mutate(date = as.Date(date))
 
 df_all_cases <- read.csv(here("Data", "df-predict-sf.csv")) |> mutate(date = as.Date(date))
-# df_all_cases <- fst::read.fst(here("Data", "1.6-df-predict-sf.fst")) |> mutate(date = as.Date(date))
 
 # forecast on all cases with bootstrapped CIs ------------------------------------------
 forecast_cis <- generate_forecast_intervals(
